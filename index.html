@@ -3,66 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bhanu Prakash | Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f9; color: #333; }
-    header { background: #222; color: #fff; padding: 20px; text-align: center; }
-    header img { width: 120px; border-radius: 50%; margin-top: 10px; }
-    section { padding: 40px; max-width: 900px; margin: auto; }
-    h2 { color: #444; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
-    ul { list-style-type: none; padding: 0; }
-    ul li { margin: 10px 0; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer { background: #222; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
-  </style>
+  <title>Bhanu Prakash Adireddy | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <header>
+  <!-- Home -->
+  <section id="home" class="hero">
+    <img src="images/profile.jpg" alt="Bhanu Prakash" class="profile-pic">
     <h1>Bhanu Prakash Adireddy</h1>
-    <p>Data Scientist | MSc AI, Cardiff University</p>
-    <img src="profile.jpg" alt="My Photo">
-  </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I’m a Data Scientist with 2+ years’ experience in ML & AI. 
-      Skilled in Python, SQL, NLP, and Data Analytics. 
-      I’ve built forecasting systems, churn models, and a state-of-the-art LLM pipeline for Text-to-SQL.
-    </p>
+    <p>Data Scientist | MSc Artificial Intelligence | AI & NLP Enthusiast</p>
+    <a href="#projects" class="btn">View My Work</a>
   </section>
 
-  <section>
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Data Scientist with 2+ years of experience and an MSc in Artificial Intelligence from Cardiff University. Skilled in Python, SQL, NLP, ML, and data visualization with Power BI and Tableau. Passionate about applying AI to solve real-world problems.</p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>NHS Wales – Data Analyst Intern</h3>
+      <p><em>Jul 2025 – Sep 2025, Cardiff, UK</em></p>
+      <ul>
+        <li>Improved diabetes clinic data quality & analysis (14% DNA rate).</li>
+        <li>Built Power BI dashboards and suggested actionable interventions.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>VIAI Solutions – Data Scientist</h3>
+      <p><em>Mar 2024 – Aug 2024, Hyderabad, India</em></p>
+      <ul>
+        <li>Built churn prediction model (92% accuracy, 49% churn reduction).</li>
+        <li>Performed EDA, built AdaBoost model for business insights.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Data Mind Analytics – Data Analyst</h3>
+      <p><em>May 2023 – Jan 2024, Hyderabad, India</em></p>
+      <ul>
+        <li>Developed sales forecasting pipeline, improving stock planning by 18%.</li>
+        <li>Automated reporting with SQL & Python, reducing errors.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Cardiff University</strong> – MSc in Artificial Intelligence (2024–2025)</p>
+    <p>Dissertation: Built a six-layer LLM pipeline with repair mechanism, improving Text-to-SQL accuracy from 63% → 84%.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li><a href="https://github.com/adireddybhanu/customer-churn">Customer Churn Prediction (92% accuracy)</a></li>
-      <li><a href="https://github.com/adireddybhanu/nhs-wales-analytics">NHS Wales Analytics Dashboard</a></li>
-      <li><a href="https://github.com/adireddybhanu/text-to-sql">Text-to-SQL LLM Pipeline (84% EM accuracy)</a></li>
+      <li><a href="https://github.com/adireddybhanu/Customer-Churn">Customer Churn Prediction</a></li>
+      <li><a href="https://github.com/adireddybhanu/Sales-Forecasting">Sales Data Forecasting</a></li>
+      <li><a href="https://github.com/adireddybhanu/Text-to-SQL">Text-to-SQL with LLMs</a></li>
     </ul>
   </section>
 
-  <section>
-    <h2>Achievements</h2>
-    <ul>
-      <li>🎓 MSc in Artificial Intelligence – Cardiff University</li>
-      <li>📊 Built a churn model reducing churn by 40%</li>
-      <li>🤖 Developed 6-layer repair architecture for Text-to-SQL (state-of-the-art results)</li>
-      <li>🏥 NHS Wales project: Analyzed 14% DNA rate and delivered actionable insights</li>
-    </ul>
-  </section>
-
-  <section>
+  <!-- Contact -->
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:adireddybhanudatascience@gmail.com">adireddybhanudatascience@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/YOUR-LINK">linkedin.com/in/YOUR-LINK</a></p>
-    <p>GitHub: <a href="https://github.com/adireddybhanu">github.com/adireddybhanu</a></p>
+    <p>Email: <a href="mailto:bhanuprakashadireddy@gmail.com">bhanuprakashadireddy@gmail.com</a></p>
+    <p>Phone: 07741012603</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/adireddybhanu" target="_blank">linkedin.com/in/adireddybhanu</a></p>
+    <p>GitHub: <a href="https://github.com/adireddybhanu" target="_blank">github.com/adireddybhanu</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Bhanu Prakash | Built with ❤️ using GitHub Pages</p>
+    <p>© 2025 Bhanu Prakash Adireddy</p>
   </footer>
-
 </body>
 </html>
